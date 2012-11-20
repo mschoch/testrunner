@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.aconex.scrutineer</groupId>
+  <artifactId>scrutineer</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0.6-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20120906212114</lastUpdated>
+  </versioning>
+</metadata>

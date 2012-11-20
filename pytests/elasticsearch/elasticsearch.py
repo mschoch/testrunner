@@ -41,7 +41,7 @@ class ElasticSearchSupport(BaseTestCase):
     def _verify_elasticsearch(self, server, kv_store=1):
 	self.log.warning("invoking scrutineer to verify elasticsearch index")
 	try:
-		retcode = call("/home/marty/scrutineer-1.0.6-SNAPSHOT/compare.sh", shell=True)
+		retcode = call("scrutineer-1.0.6-SNAPSHOT/compare.sh", shell=True)
 		if retcode != 0:
 			self.log.info("Child returned {0}".format(retcode))
 			self.fail("scrutineer returned error")
